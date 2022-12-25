@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+     <nav>
+            <a href="index.html"> <img src="logo.png" alt="" width="150px"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="bi bi-x-square-fill" onclick="hidemenu()"></i>
+              
+              <ul>
+                <li><a href="#">anasayfa</a></li>
+                <li><a href="#">hakkımızda</a></li>
+                <li><a href="#">menüler</a></li>
+                <li><a href="#">iletişim</a></li>
+              </ul>
+
+        </div>
+        <i class="bi bi-list" onclick="showmenu()"></i>
+
+
+      
+
+     </nav>
+    </header>
+    <div class="text-box">
+       <h1>welcome the cozmo one gourmet</h1>
+       <p>ın this cozmo, we offer you the opportunity to 
+        eat the most delicious and fresh food with great pleasure
+        we are sure you will like eat 
+       </p><br>
+       <a href="#" class="hero-btn">CONTACT US FOR MORE</a>
+    </div>
+
+<!--nerelerde varız-->
+<section class="course">
+    <h1>burada cozmo da bulunan çeşitli lezzetleri göreceksiniz</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+    <div class="row">
+        <div class="col">
+            start
+           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+        </div>
+        <div class="col">
+          presentation
+         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+        </div>
+        <div class="col">
+         finish
+         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+        </div>
+        
+    </div>
+</section>
+
+<!--adres nerede var-->
+<section class="campus">
+    <h1>location</h1>
+
+         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+          <div class="row">
+            <div class="com">
+                <img src="virg.jpeg" alt="">
+                     <h1>Virginia</h1>
+                <img src="vir.jpeg" alt="">
+                   <h1>Virgina</h1>
+            </div>
+          </div>
+    
+</section>
+
+    <!--javasScript-->
+    <script>
+        var navlinks = document.getElementById('navlinks')
+        function showmenu(){
+            navlinks.style.right= '0'
+        }
+
+        function hidemenu(){
+            navlinks.style.right= '-200px'
+
+        }
+    </script>
+
+    
+
+</body>
+</html>
